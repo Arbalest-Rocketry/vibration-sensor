@@ -7,7 +7,7 @@ const int chipSelect = 10;
 
 String FileName() {
   String fileName;
-    String OGfile = "ViolinTest";
+    String OGfile = "filename";
 
     for (int i = 1; i < 100; i++) {
       
