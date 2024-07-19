@@ -28,7 +28,10 @@ We needed a microcontroller and an SD chip to log the flight data. For this, we 
 
 MATLAB is a powerful tool often used in data analysis applications. One such app, “Signal Analyser,” was used to analyze the data in both the time and frequency domains. Most rockets have large vibrations but relatively low amplitudes, so an FFT analysis needed a range of no more than 1000 Hz to record the expected frequencies.
 
-The range of frequencies by an FFT is related to the sampling frequency through the equation \( F_s = 2F_n \), where \( F_n \) is the Nyquist Frequency, and \( F_s \) is the sampling frequency. To achieve a maximum range of frequencies to be 1000 Hz, we sampled at 2000 Hz or every 500 microseconds.
+The range of frequencies by an FFT is related to the sampling frequency through the equation:
+$$F_s = 2F_n$$
+where $$F_n$$ is the Nyquist Frequency, and 
+$$F_s$$ is the sampling frequency. To achieve a maximum range of frequencies up to 1000 Hz, we sampled at 2000 Hz, or every 500 microseconds.
 
 ## Results
 
